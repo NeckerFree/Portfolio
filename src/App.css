@@ -37,3 +37,17 @@
     transform: rotate(360deg);
   }
 }
+.jumbotron{
+  background-image: url('../src/assets/images/fondo.jpg');
+  /* height: 400px; */
+  width: 100%;
+}
+/* .fondo{
+  background-color: rgba(0, 0, 0, 0.6);
+} */
+.logoElio{
+  height: 50px;
+}
+.regard{
+  width: 350px;
+}
