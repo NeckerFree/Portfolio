@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+
+  --app-gray-background: #191765;
+
+  min-width: min-content;
+  font-family: 'Roboto', sans-serif;
+
+  --app-gray-color: #7a6e6e;
+  --app-ligth-gray-color: #f0f0f0;
+}
+
+.jumbotron {
+  background-image: url('../images/fondo.jpg');
+  height: 250px;
+}
+
+.main-profile {
+  padding-top: 30px;
+}
+
+.main-profile h1,
+h4 {
+  font-weight: 700;
+  font-size: 40px;
+  font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+.logoElio {
+  height: 50px;
+}
+
+.regard {
+  width: 350px;
+}
+
+#about {
+  background-color: var(--app-ligth-gray-color);
+  display: flex;
+  padding: 30px 30px 10px 50px;
+  flex-wrap: wrap;
+}
+
+#about h1 {
+  font-weight: 400;
+  font-size: 40px;
+  font-family: 'Roboto Condensed', sans-serif;
+  height: 90px;
+}
+
+#about p {
+  color: var(-app-gray-color) !important;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+  margin-top: 80px;
+  text-align: left;
+}
+
+.photo {
+  flex-basis: 50%;
+  margin-top: 80px;
+}
