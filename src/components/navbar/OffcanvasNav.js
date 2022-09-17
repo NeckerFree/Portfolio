@@ -1,4 +1,4 @@
-// import Container from 'react-bootstrap/Container';
+import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
@@ -6,8 +6,8 @@ import logo from '../../assets/images/logo.png';
 
 function OffcanvasNav() {
   return (
-    <>
-      <Navbar className="mt-2 p-2 text-white border rounded-3 fs-4" key="md" bg="light" expand="md">
+    <Navbar className="pt-2 text-white border rounded-3 fs-5" key="md" bg="light" expand="md" sticky="top">
+      <Container>
         <Navbar.Brand href="#"><img className="logoElio" src={logo} alt="logo" /></Navbar.Brand>
         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${'md'}`} />
         <Navbar.Offcanvas
@@ -30,8 +30,8 @@ function OffcanvasNav() {
             </Nav>
           </Offcanvas.Body>
         </Navbar.Offcanvas>
-      </Navbar>
-    </>
+      </Container>
+    </Navbar>
   );
 }
 
