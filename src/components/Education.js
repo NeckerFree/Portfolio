@@ -10,7 +10,7 @@ const Education = () => (
           <Card style={{ width: '30rem' }}>
             <Card.Body>
               <div>National University of Colombia</div>
-              <div>Systems Engineer </div>
+              <div>Systems Engineer</div>
             </Card.Body>
           </Card>
         </li>
