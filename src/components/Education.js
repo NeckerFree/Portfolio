@@ -3,7 +3,7 @@ import { Card, Container } from 'react-bootstrap';
 
 const Education = () => (
   <Container className="flex-column text-center color-container mt-2 pb-5 border rounded-3" fluid>
-    <h1 className="education-title">Education</h1>
+    <h1 className="section-title education-title">Education</h1>
     <section id="education">
       <ul className="education-container">
         <li className="education-node">
