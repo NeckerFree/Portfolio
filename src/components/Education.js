@@ -7,7 +7,7 @@ const Education = () => (
     <section id="education">
       <ul className="education-container">
         <li className="education-node">
-          <Card style={{ width: '30rem' }}>
+          <Card style={{ width: '23rem', height: '9rem' }}>
             <Card.Body>
               <div>National University of Colombia</div>
               <div>Systems Engineer</div>
@@ -15,12 +15,7 @@ const Education = () => (
           </Card>
         </li>
         <li className="education-node">
-          {/* <div className="d-flex mh-100"> */}
-          <div className="vr divider-line" />
-          {/* </div> */}
-        </li>
-        <li className="education-node">
-          <Card style={{ width: '30rem' }}>
+          <Card style={{ width: '23rem', height: '9rem' }}>
             <Card.Body>
               <div>Microverse Trainning Program</div>
               <div>Full Stack Web Developer</div>

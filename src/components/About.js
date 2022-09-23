@@ -23,7 +23,7 @@ const About = () => (
         {/* <a className="btn btn-outline-light btn-lg" href="#!" role="button">Call to action</a> */}
       </div>
       <div className="photo">
-        <img src={photo} alt="Logo" className="rounded-circle" />
+        <img src={photo} alt="Elio" className="mt-5 rounded-circle" />
       </div>
     </section>
   </Container>
