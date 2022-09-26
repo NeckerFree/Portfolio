@@ -6,6 +6,7 @@ let microverseExperience = {
     endDate: '',
     position: 'Full Stack Web Developer',
     modality: 'trainning',
+    multiple: true,
     functions: [],
     company: 'Microverse',
     description: 'Microverse training program',
@@ -27,6 +28,7 @@ let superSociedadesExperience = {
     endDate: '01-06-2021',
     position: '.NET Senior Developer',
     modality: 'full time job',
+    multiple: true,
     functions: [
         'Definition of strategy, requirements and implementation to migrate web services from Informix to SQL Server database.',
         'Created a new version of Web.API web services using JWT authentication and Swagger, developed the new required methods and migrated existing SQL queries to web methods and deployed REST services to production.',
@@ -51,6 +53,7 @@ let comwareExperience = {
     endDate: '30-05-2019',
     position: '.Net Developer',
     modality: 'partial time job',
+    multiple: true,
     functions: [
         '.Net Development'
     ],
@@ -74,6 +77,7 @@ let dbSystemExperience = {
     endDate: '28-02-2018',
     position: '.Net Developer',
     modality: 'full time job',
+    multiple: true,
     functions: [],
     company: 'DB-System',
     description: 'Implement use cases for royalties system at ministry of finance and public credit',
@@ -95,11 +99,12 @@ let intergrupoExperience = {
     endDate: '31-07-2016',
     position: '.NET Software Developer',
     modality: 'full time job',
+    multiple: true,
     functions: [
         'Development from scratch of Clients and Affiliates App for Compensar',
-    'Develop Improvements and new requirements for CITY BANK apps',
-    'Coding Web Services for Consorcio Salud'
-],
+        'Develop Improvements and new requirements for City Bank apps',
+        'Coding Web Services for Consorcio Salud'
+    ],
     company: 'INTERGRUPO',
     description: '',
     projects: [
@@ -120,7 +125,7 @@ let intergrupoExperience = {
             image: ''
         },
         {
-            name: 'Consorcio Salud',
+            name: 'Consortium Healthcare',
             description: 'Development of Soap Web Services',
             technologies: ['SQL Server', 'Web Services'],
             gitUrl: '',
@@ -137,6 +142,7 @@ let newExperience = {
     endDate: '00-00-0000',
     position: '',
     modality: '',
+    multiple: true,
     functions: [],
     company: '',
     description: '',

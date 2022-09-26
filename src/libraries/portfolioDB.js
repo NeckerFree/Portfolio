@@ -8,18 +8,18 @@ const getAppName = () => {
     const app = path.join(process.cwd(), 'package.json');
     return app.name;
   } catch (error) {
-alert('Error:' + error);
-}
-  return undefined;
+    return error;
+  }
+  // return undefined;
 };
 
 const getDatabasePath = (fallbackName) => {
   let appName = getAppName();
   if (!appName) {
-  //   console.warn(
-  //     'Could not infer app name from package.json or electron\'s app. Using the collection name'
-  //       + `${fallbackName} as fallback value to create database filepath.`,
-  //   );
+    //   console.warn(
+    //     'Could not infer app name from package.json or electron\'s app. Using the collection name'
+    //       + `${fallbackName} as fallback value to create database filepath.`,
+    //   );
     appName = fallbackName;
   }
   const platform = os.platform();
