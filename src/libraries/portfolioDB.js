@@ -2,6 +2,7 @@ const path = require('path');
 const fs = require('fs');
 const os = require('os');
 const crypto = require('crypto');
+const exists = require('fs-exists-sync');
 
 const getAppName = () => {
   try {
@@ -34,7 +35,7 @@ class Collection {
   constructor(name, filepath) {
     this.name = name;
     this.localData = { [this.name]: [] };
-    if (fs.existsSync(filepath)) {
+    if (exists(filepath)) {
       // console.log(`Found existing database table at ${filepath}`);
       this.filepath = filepath;
       this.sync();

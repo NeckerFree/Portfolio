@@ -3,8 +3,8 @@ import { Container } from 'react-bootstrap';
 import photo from '../assets/images/mini.jpg';
 
 const About = () => (
-  <Container className="flex-column text-center color-container mt-2 border rounded-3" fluid>
-    <section id="about">
+  <Container id="about" className="flex-column text-center color-container mt-2 border rounded-3" fluid>
+    <section id="about-section">
       <div className="profile">
         <h1>Hi, I am Elio Cortés</h1>
         <p>

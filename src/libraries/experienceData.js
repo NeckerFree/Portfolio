@@ -2,14 +2,14 @@ const db = require('./portfolioDB');
 const collection = db.collection('experience', './src/data/experience.json');
 collection.clear();
 let microverseExperience = {
-    startDate: '01-02-2022',
+    startDate: '02-01-2022',
     endDate: '',
-    position: 'Full Stack Web Developer',
+    position: 'certificate: Full Stack Web Developer',
     modality: 'trainning',
     multiple: true,
     functions: [],
-    company: 'Microverse',
-    description: 'Microverse training program',
+    company: 'Microverse training program',
+    description: "JavaScript, React, Ruby on Rails",
     projects: [
         {
             name: 'Final Capstone project',
@@ -24,8 +24,8 @@ let microverseExperience = {
 collection.insert(microverseExperience);
 
 let superSociedadesExperience = {
-    startDate: '01-04-2020',
-    endDate: '01-06-2021',
+    startDate: '04-01-2020',
+    endDate: '06-30-2021',
     position: '.NET Senior Developer',
     modality: 'full time job',
     multiple: true,
@@ -34,8 +34,8 @@ let superSociedadesExperience = {
         'Created a new version of Web.API web services using JWT authentication and Swagger, developed the new required methods and migrated existing SQL queries to web methods and deployed REST services to production.',
         'Deployed apps to the production environment and support the entity operations.'
     ],
-    company: 'SUPERINTENDENCIA DE SOCIEDADES',
-    description: 'Colombian government entity',
+    company: 'Superintendencia de Sociedades',
+    description: '',
     projects: [
         {
             name: 'Software development',
@@ -49,16 +49,16 @@ let superSociedadesExperience = {
 };
 collection.insert(superSociedadesExperience);
 let comwareExperience = {
-    startDate: '01-05-2018',
-    endDate: '30-05-2019',
-    position: '.Net Developer',
+    startDate: '05-01-2018',
+    endDate: '05-30-2019',
+    position: '.NET Senior Developer',
     modality: 'partial time job',
     multiple: true,
     functions: [
-        '.Net Development'
+        'Implement dynamic form generation to register agricultural producers'
     ],
     company: 'Comware',
-    description: 'Dynamic Form Generation to register agricultural producers',
+    description: '',
     projects: [
         {
             name: 'Dynamic Forms Generator',
@@ -73,14 +73,14 @@ let comwareExperience = {
 collection.insert(comwareExperience);
 
 let dbSystemExperience = {
-    startDate: '01-05-2017',
-    endDate: '28-02-2018',
-    position: '.Net Developer',
+    startDate: '05-01-2017',
+    endDate: '02-28-2018',
+    position: '.NET Senior Developer',
     modality: 'full time job',
     multiple: true,
-    functions: [],
+    functions: ['Implement use cases for royalties system at ministry of finance and public credit'],
     company: 'DB-System',
-    description: 'Implement use cases for royalties system at ministry of finance and public credit',
+    description: '',
     projects: [
         {
             name: 'Royalties System',
@@ -95,9 +95,9 @@ let dbSystemExperience = {
 collection.insert(dbSystemExperience);
 
 let intergrupoExperience = {
-    startDate: '01-09-2014',
-    endDate: '31-07-2016',
-    position: '.NET Software Developer',
+    startDate: '09-01-2014',
+    endDate: '07-31-2016',
+    position: '.NET Senior Developer',
     modality: 'full time job',
     multiple: true,
     functions: [
@@ -105,7 +105,7 @@ let intergrupoExperience = {
         'Develop Improvements and new requirements for City Bank apps',
         'Coding Web Services for Consorcio Salud'
     ],
-    company: 'INTERGRUPO',
+    company: 'Intergrupo',
     description: '',
     projects: [
         {

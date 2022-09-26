@@ -42,19 +42,19 @@ h4 {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-#about {
+#about-section {
   display: flex;
   padding: 0 20px 0 20px;
   flex-wrap: wrap;
 }
 
-#about h1 {
+#about-section h1 {
   font-weight: 400;
   font-size: 40px;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-#about p {
+#about-section p {
   font-weight: 400;
   font-size: 25px;
   color: var(-app-gray-color) !important;
@@ -89,12 +89,10 @@ h4 {
   justify-content: space-around;
 }
 
-.education-title {
-  margin-bottom: 70px;
-}
-
 .section-title {
   margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 30px !important;
 }
 
 .education-node {
@@ -163,17 +161,45 @@ h4 {
   padding: 0 3px;
 }
 
-.hmSQar {
-  width: 100%;
-  max-width: 880px;
-  margin: 0px auto;
+.experience-line {
+  border-left: 1px solid rgb(0, 0, 0);
+  width: 10px;
+  padding: 0 0 0 10px;
+  position: relative;
+  height: 100%;
 }
-.ewGAFB {
-  background-color: rgb(0, 0, 0);
+
+.experience-circle {
+  background-color: black;
   width: 7px;
   height: 7px;
   border-radius: 50%;
   position: absolute;
   top: 10px;
   left: -4px;
+}
+
+.experience-info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 0%;
+}
+
+.experience-period {
+  /* color: red; */
+  font-weight: 800;
+  display: block;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  width: 100%;
+  max-width: 150px;
+  text-align: right;
+  word-break: break-word;
+  margin-right: 15px;
+}
+
+.experience-function {
+  font-size: smaller;
+  margin-bottom: 0;
 }
