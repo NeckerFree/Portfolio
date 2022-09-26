@@ -21,7 +21,7 @@ const Skills = () => {
     <div>
       <Container className="flex-column text-center color-container mt-2 pb-5 border rounded-3" fluid>
         <h1 className="section-title">Skills</h1>
-        <div className="tree">
+        <section id="skills" className="tree">
           <div className="image-container">
             {
               listImages.map((imgObject) => (
@@ -39,7 +39,7 @@ const Skills = () => {
               ))
             }
           </div>
-        </div>
+        </section>
       </Container>
     </div>
   );

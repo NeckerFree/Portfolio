@@ -77,8 +77,8 @@ describe('tests database at specific path', () => {
     expect(absCollection.filepath).not.toBeNull();
   });
 
-  test('drops database', async () => {
-    await absCollection.drop();
-    expect(absCollection.filepath).toBeNull();
-  });
+  // test('drops database', async () => {
+  //   await absCollection.drop();
+  //   expect(absCollection.filepath).toBeNull();
+  // });
 });
