@@ -19,7 +19,8 @@
       "react/react-in-jsx-scope": "off",
       "import/no-unresolved": "off",
       "no-shadow": "off",
-      "max-len": ["error", {"code": 130}]
+      "max-len": ["error", {"code": 130}],
+      "linebreak-style": ["error", "unix"]
     },
     "ignorePatterns": [
       "dist/",

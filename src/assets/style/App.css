@@ -203,3 +203,39 @@ h4 {
   font-size: smaller;
   margin-bottom: 0;
 }
+
+.portfolio-projects{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+/* .project{
+  flex:24%;
+  height: 300px;
+} */
+.project-image{
+   /* width: auto;   */
+   /* height: 300px; */
+   opacity: 0.5;
+   /* vertical-align: middle !important; */
+   margin: auto;
+}
+.card-footer ul li{
+  list-style: none;
+  float: left;
+  padding: 2px 5px;
+  font-size: smaller;
+  border-right: 1px solid #81818c;
+}
+
+.card-footer ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  justify-content: center;
+  padding-left: 0px;
+}
+.card-footer ul li:first-child {
+  border-left: 1px solid #81818c;
+}
