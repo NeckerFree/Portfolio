@@ -210,22 +210,24 @@ h4 {
   text-align: center;
 }
 
-/* .project{
-  flex:24%;
-  height: 300px;
-} */
 .project-image{
-   /* width: auto;   */
-   /* height: 300px; */
-   opacity: 0.5;
-   /* vertical-align: middle !important; */
-   margin: auto;
+  opacity: 0.5;
+  margin: auto;
+  height: auto;
+  width: 19rem;
+}
+
+.card-body .card-text{
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
 }
 .card-footer ul li{
   list-style: none;
   float: left;
   padding: 2px 5px;
   font-size: smaller;
+  font-weight: 400;
   border-right: 1px solid #81818c;
 }
 

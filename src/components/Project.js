@@ -26,9 +26,9 @@ const Project = (props) => {
             <ListGroup.Item>{description}</ListGroup.Item>
           </ListGroup> */}
         <Card.Body className="mt-4">
-          <Card.Text>{`${company}(${creationDate})`}</Card.Text>
-          <Card.Link target="_blank" href={gitUrl}>Git Repo</Card.Link>
-          <Card.Link target="_blank" href={deploySite}>Deploy Site</Card.Link>
+          <Card.Text>{`${company} (${creationDate})`}</Card.Text>
+          {gitUrl !== '' && <Card.Link className="text-decoration-none" target="_blank" href={gitUrl}>Git Repo</Card.Link>}
+          <Card.Link className="text-decoration-none" target="_blank" href={deploySite}>Deploy Site</Card.Link>
         </Card.Body>
         <Card.Footer className="mt-4">
           {/* <Card.Text> */}
