@@ -203,3 +203,43 @@ h4 {
   font-size: smaller;
   margin-bottom: 0;
 }
+
+.portfolio-projects {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.project-image {
+  opacity: 0.5;
+  margin: auto;
+  height: auto;
+  width: 19rem;
+}
+
+.card-body .card-text {
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.card-footer ul li {
+  list-style: none;
+  float: left;
+  padding: 2px 5px;
+  font-size: smaller;
+  font-weight: 400;
+  border-right: 1px solid #81818c;
+}
+
+.card-footer ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.card-footer ul li:first-child {
+  border-left: 1px solid #81818c;
+}

@@ -1,18 +1,122 @@
 {
   "Projects": [
     {
-      "creationDate": "02-01-2022",
+      "creationDate": "09-09-2022",
       "company": "Microverse",
       "name": "Final Capstone project",
-      "description": "Cars test drive App",
+      "description": "Cars test drive app",
       "technologies": [
         "React",
-        "Ruby on Rails"
+        "Redux",
+        "Bootstrap",
+        "Ruby",
+        "Rails",
+        "JWT"
       ],
       "gitUrl": "https://github.com/NeckerFree/Cars",
       "deploySite": "https://cars-capstone.herokuapp.com",
       "image": "/projects/final_capstone.png",
-      "id": "eda7c856e0be442ceaf3ccb983dc9b33"
+      "id": "2d79bdac0476aba34fc076e7c039992f"
+    },
+    {
+      "creationDate": "08-12-2022",
+      "company": "Microverse",
+      "name": "Ruby on Rails Capstone",
+      "description": "Budget app",
+      "technologies": [
+        "Ruby_on_Rails",
+        "Boostrap",
+        "PostgreSql",
+        "Rspec"
+      ],
+      "gitUrl": "https://github.com/NeckerFree/MyMoney",
+      "deploySite": "https://MyMoney.herokuapp.com",
+      "image": "/projects/MyMoney.png",
+      "id": "f5cd4aede1a76a7b31af868c6d81481a"
+    },
+    {
+      "creationDate": "05-27-2022",
+      "company": "Microverse",
+      "name": "React-Redux Capstone",
+      "description": "MET Museum of Art API",
+      "technologies": [
+        "React",
+        "Redux",
+        "Jest",
+        "Axios"
+      ],
+      "gitUrl": "https://github.com/NeckerFree/Capstone-Metropolitan-Museum-of-Art",
+      "deploySite": "https://metropolitan-museum-art.netlify.app/",
+      "image": "/projects/met.png",
+      "id": "2d13b7dc01de350c5b30b4dfa108cfdc"
+    },
+    {
+      "creationDate": "05-14-2022",
+      "company": "Microverse",
+      "name": "Javascript Capstone",
+      "description": "Running is a passion",
+      "technologies": [
+        "Javascript",
+        "HTML",
+        "CSS",
+        "Bootstrap"
+      ],
+      "gitUrl": "https://github.com/NeckerFree/Capstone-Module-1",
+      "deploySite": "https://neckerfree.github.io/Capstone-Module-1/",
+      "image": "/projects/conference.png",
+      "id": "44802c501734815506b6749785ef25ae"
+    },
+    {
+      "creationDate": "04-23-2022",
+      "company": "Microverse",
+      "name": "Javascript-Webpack Capstone",
+      "description": "Meals Reservations app",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Webpack",
+        "Jest"
+      ],
+      "gitUrl": "https://github.com/NeckerFree/Capstone-Module-2",
+      "deploySite": "https://neckerfree.github.io/Capstone-Module-2/",
+      "image": "/projects/meals.png",
+      "id": "155dbb8e97dcb1d542f62658f1efa780"
+    },
+    {
+      "creationDate": "04-07-2022",
+      "company": "Microverse",
+      "name": "Javascript-Webpack Project",
+      "description": "TO-DO List app",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Webpack",
+        "Jest"
+      ],
+      "gitUrl": "https://github.com/NeckerFree/To-Do-List",
+      "deploySite": "https://neckerfree.github.io/To-Do-List/dist/index.html",
+      "image": "/projects/todo.png",
+      "id": "19def5dd5954cacb1e9afde7a82f0c13"
+    },
+    {
+      "creationDate": "06-01-2021",
+      "company": "Super Sociedades",
+      "name": "Software development",
+      "description": "Development entity apps",
+      "technologies": [
+        ".NET",
+        "C#",
+        "WS",
+        "MVC",
+        "EF",
+        "SQL_Server"
+      ],
+      "gitUrl": "",
+      "deploySite": "https://www.supersociedades.gov.co/Servicio_Ciudadano/tramites-y-servicios/Paginas/default.aspx",
+      "image": "/projects/super_sociedades.png",
+      "id": "f1546ae27c6dbe674c8a3a031e2065df"
     }
   ]
 }
