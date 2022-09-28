@@ -204,25 +204,26 @@ h4 {
   margin-bottom: 0;
 }
 
-.portfolio-projects{
+.portfolio-projects {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
 }
 
-.project-image{
+.project-image {
   opacity: 0.5;
   margin: auto;
   height: auto;
   width: 19rem;
 }
 
-.card-body .card-text{
+.card-body .card-text {
   font-size: 14px;
   font-style: italic;
   font-weight: 500;
 }
-.card-footer ul li{
+
+.card-footer ul li {
   list-style: none;
   float: left;
   padding: 2px 5px;
@@ -236,8 +237,9 @@ h4 {
   flex-direction: row;
   margin: 0;
   justify-content: center;
-  padding-left: 0px;
+  padding-left: 0;
 }
+
 .card-footer ul li:first-child {
   border-left: 1px solid #81818c;
 }
