@@ -6,7 +6,7 @@ import logo from '../../assets/images/logo.png';
 
 function OffcanvasNav() {
   return (
-    <Navbar className="pt-2 text-white border rounded-3 fs-5" key="sm" bg="light" expand="sm" sticky="top">
+    <Navbar className="pt-2 text-red border rounded-3 fs-5" key="sm" expand="sm" sticky="top">
       <Container>
         <Navbar.Brand href="#"><img className="logoElio" src={logo} alt="logo" /></Navbar.Brand>
         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${'sm'}`} />

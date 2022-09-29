@@ -45,9 +45,13 @@ Feel free to check the [issues page](https://github.com/NeckerFree/Portfolio/iss
 
 ## Acknowledgments
 
-# minim-json-db:
+### minim-json-db:
 <!-- <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>. -->
 https://github.com/leoncvlt/minim-json-db/blob/4b15fc3c0edaad25406b5ba76c158b70c9583007/LICENSE
+
+### Icons by:
+
+[Icon8](https://icons8.com)
 
 ## Show your support
 

@@ -1,10 +1,10 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import photo from '../assets/images/mini.jpg';
+import photoElio from '../assets/images/mini.jpg';
 
 const About = () => (
   <Container id="about" className="flex-column text-center color-container mt-2 border rounded-3" fluid>
-    <section id="about-section">
+    <section className="about-section">
       <div className="profile">
         <h1>Hi, I am Elio Cortés</h1>
         <p>
@@ -22,8 +22,8 @@ const About = () => (
 
         {/* <a className="btn btn-outline-light btn-lg" href="#!" role="button">Call to action</a> */}
       </div>
-      <div className="photo">
-        <img src={photo} alt="Elio" className="mt-5 rounded-circle" />
+      <div className="photo-person">
+        <img src={photoElio} alt="Elio" className="rounded-circle" />
       </div>
     </section>
   </Container>
