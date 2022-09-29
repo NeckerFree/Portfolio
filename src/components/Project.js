@@ -15,7 +15,7 @@ const Project = (props) => {
   } = props;
   return (
     // <div className="d-flex aligns-items-center justify-content-center">
-    <Card style={{ width: '19rem', height: '280px' }} className="color-container border rounded-3 m-1 pt-3 p-2">
+    <Card style={{ width: '19rem', height: '280px' }} className="text-black color-container border rounded-3 m-1 pt-3 p-2">
       <Card.Img className="project-image" src={`${process.env.PUBLIC_URL}/assets/images/${image}`} />
       <Card.ImgOverlay>
         <Card.Header>
@@ -27,8 +27,8 @@ const Project = (props) => {
           </ListGroup> */}
         <Card.Body className="mt-4">
           <Card.Text>{`${company} (${creationDate})`}</Card.Text>
-          {gitUrl !== '' && <Card.Link className="text-decoration-none" target="_blank" href={gitUrl}>Git Repo</Card.Link>}
-          <Card.Link className="text-decoration-none" target="_blank" href={deploySite}>Deploy Site</Card.Link>
+          {gitUrl !== '' && <Card.Link className="text-decoration-none" target="_blank" href={gitUrl}>Visit Git</Card.Link>}
+          <Card.Link className="text-decoration-none" target="_blank" href={deploySite}>Visit App</Card.Link>
         </Card.Body>
         <Card.Footer className="mt-4">
           {/* <Card.Text> */}
