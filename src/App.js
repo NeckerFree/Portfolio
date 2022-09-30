@@ -11,8 +11,8 @@ import Contact from './components/Contact';
 
 const App = () => (
   <div>
-    <OffcanvasNav />
-    <Container className="text-white flex-column text-center" fluid>
+    <OffcanvasNav className="disable-select" />
+    <Container className="disable-select text-white flex-column text-center" fluid>
       <Row><Col><Jumbotron /></Col></Row>
       <Row><Col><About /></Col></Row>
       <Row><Col><Education /></Col></Row>

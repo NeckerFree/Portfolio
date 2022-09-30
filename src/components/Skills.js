@@ -19,9 +19,13 @@ const Skills = () => {
 
   return (
     <div>
-      <Container className="flex-column text-center color-container mt-2 pb-5 border rounded-3" fluid>
+      <Container
+        id="skills"
+        className="container-section flex-column text-center color-container mt-1 pb-5 border rounded-3"
+        fluid
+      >
         <h1 className="section-title">Skills</h1>
-        <section id="skills" className="tree text-black">
+        <section className="tree">
           <div className="image-container">
             {
               listImages.map((imgObject) => (

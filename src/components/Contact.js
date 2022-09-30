@@ -18,7 +18,11 @@ const Contact = () => {
     setValidated(true);
   };
   return (
-    <Container id="contact" className="flex-column text-center color-container mt-2 pb-5 border rounded-3" fluid>
+    <Container
+      id="contact"
+      className="container-section flex-column text-center color-container mt-1 mb-2 pb-5 border rounded-3"
+      fluid
+    >
       <h1 className="section-title">Contact</h1>
       <section className="contact-section">
         <div className="contact-left">
@@ -61,6 +65,7 @@ const Contact = () => {
               {/* <Form.Label>FullName</Form.Label> */}
               <Form.Control name="name" required type="text" minLength={7} placeholder="Full name" />
               <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
+              <Form.Control.Feedback type="invalid">Please enter name (min length 7)</Form.Control.Feedback>
             </Form.Group>
           </Row>
           <Row className="mb-4">
@@ -68,6 +73,7 @@ const Contact = () => {
               {/* <Form.Label>Email</Form.Label> */}
               <Form.Control name="email" required type="email" placeholder="Email" />
               <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
+              <Form.Control.Feedback type="invalid">Please enter a valid email</Form.Control.Feedback>
             </Form.Group>
           </Row>
           <Row className="mb-4">
@@ -82,9 +88,10 @@ const Contact = () => {
                 rows={3}
               />
               <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
+              <Form.Control.Feedback type="invalid">Please enter message (min length 10)</Form.Control.Feedback>
             </Form.Group>
           </Row>
-          <Button className="btn btn-outline-light btn-lg rounded-pill" type="submit">Submit</Button>
+          <Button className="btn btn-outline-info btn-lg rounded-pill" variant="outline-primary" type="submit">Submit</Button>
         </Form>
       </section>
     </Container>

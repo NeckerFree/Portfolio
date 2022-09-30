@@ -22,11 +22,12 @@ function OffcanvasNav() {
           </Offcanvas.Header>
           <Offcanvas.Body>
             <Nav className="justify-content-end flex-grow-1 pe-3">
+              <Nav.Link href="#home">Home</Nav.Link>
               <Nav.Link href="#about">About</Nav.Link>
               <Nav.Link href="#education">Education</Nav.Link>
               <Nav.Link href="#skills">Skills</Nav.Link>
-              <Nav.Link href="#experience">Experience</Nav.Link>
               <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+              <Nav.Link href="#experience">Experience</Nav.Link>
               <Nav.Link href="#contact">Contact</Nav.Link>
             </Nav>
           </Offcanvas.Body>

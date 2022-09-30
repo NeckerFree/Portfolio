@@ -1,6 +1,6 @@
 export default function Jumbotron() {
   return (
-    <div className="mt-1 p-5 text-center jumbotron rounded-3">
+    <div id="home" className="container-section mt-1 p-5 text-center jumbotron rounded-3">
       <div className="mask fondo">
         <div className="d-flex justify-content-center align-items-center h-100">
           <div className="text-white main-profile">
