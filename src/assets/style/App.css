@@ -35,7 +35,6 @@ h4 {
   height: 50px;
 }
 
-
 .color-container h1 {
   font-weight: 400;
   font-size: 40px;
@@ -174,13 +173,15 @@ h4 {
   font-size: 16px;
   padding: 0 3px;
 }
-.experience-row{
-  margin: 0px 10px !important; 
-} 
+
+.experience-row {
+  margin: 0 10px !important;
+}
+
 .experience-line {
   border-left: 1px solid var(--app-white-color);
   width: 10px;
-  padding: 0px 0px 0px 10px;
+  padding: 0 0 0 10px;
   position: relative;
   height: 100%;
 }
@@ -200,6 +201,7 @@ h4 {
   flex-direction: column;
   text-align: left;
   margin-left: 10px;
+
   /* padding: 0px 15px; */
 }
 
@@ -236,40 +238,46 @@ h4 {
   display: flex;
   flex-direction: column;
 } */
+
 /* .portfolio-projects .card:hover {
   background-color: var(--app-ligth-blue-color);
   color: transparent !important;
 } */
-.card-body{
+.card-body {
   display: flex;
   justify-content: center;
 }
+
 .project-image {
   /* opacity: 0.5; */
-  /* 
+
+  /*
   height: auto; */
+
   /* height: 100%; */
   width: 80%;
+
   /* margin-top: 30px;
   margin-bottom: auto;  */
- }
+}
 
 /* .project-image:hover {
   opacity: 0;
 } */
-.card-footer{
+.card-footer {
   justify-content: space-around;
   display: flex;
   flex-wrap: wrap;
-  
 }
-.footer-element{
+
+.footer-element {
   /* flex: 25%; */
   margin-top: 10px;
-  justify-content:space-between;
+  justify-content: space-between;
   display: flex;
   width: 200px;
 }
+
 .card-footer ul li {
   list-style: none;
   float: left;
@@ -338,7 +346,7 @@ form {
   text-align: left;
   width: 50%;
   min-width: 300px;
-  padding: 0px 10px 0px 20px; 
+  padding: 0 10px 0 20px;
 }
 
 .nav-link img {
@@ -376,7 +384,8 @@ form {
 .container-section {
   scroll-margin-top: 78px;
 }
-.btn-app{
+
+.btn-app {
   background-color: var(--app-ligth-blue-color) !important;
   font-size: 0.7em !important;
   height: 25px !important;
@@ -387,13 +396,13 @@ form {
 
 .btn-app:hover {
   background-color: var(--app-gray-color) !important;
-} 
+}
 
-.btn-app img{
+.btn-app img {
   width: 13px;
   margin-left: 3px;
 }
 
-.resume{
-  text-decoration:none
+.resume {
+  text-decoration: none;
 }
