@@ -8,19 +8,13 @@ const About = () => (
       <div className="profile">
         <div className="sup">
           <h1>Hi, I am Elio Cortés</h1>
-          <p>
-            I am Elio Cortés - a full-stack software engineer. Coding is my passion and I am in it for more than 10 years.
-            I have experience working as .NET Developer mainly using ASP.NET MVC and REST API.
+          <p className="about-text">
+            Full-stack software engineer graduated as a systems engineer,
+            coding is my passion and I have been in it for more than 10 years,
+            experienced with .NET Core and Ruby on Rails frameworks.
           </p>
-          <p>
-            Recently, I finish the Microverse Core Program where I had an interesting experience
-            learning React and Ruby on Rails framework and interacting with developers around the world
-            developing projects as collaborative way every week.
-          </p>
+          <p className="about-text" />
         </div>
-        <p className="scroll">
-          Scroll down to explore more and get in touch.
-        </p>
       </div>
       <div className="photo-person">
         <img src={photoElio} alt="Elio" className="rounded-circle" />

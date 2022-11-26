@@ -1,12 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Card } from 'react-bootstrap';
+import git from '../assets/images/icons/icons8-github-24.png';
+import live from '../assets/images/icons/icons8-external-link-24.png';
 
 const Project = (props) => {
   const {
-    creationDate,
-    company,
+    // creationDate,
     name,
+    // company,
     description,
     technologies,
     gitUrl,
@@ -14,34 +16,41 @@ const Project = (props) => {
     image,
   } = props;
   return (
-    <Card style={{ width: '19rem', height: '280px' }} className="color-container border rounded-3 m-1 pt-3 p-2">
-      <Card.Img className="project-image" src={`${process.env.PUBLIC_URL}/assets/images/${image}`} />
-      <Card.ImgOverlay>
-        <Card.Header>
-          <Card.Title>{description}</Card.Title>
-          <Card.Subtitle>{`(${name})`}</Card.Subtitle>
-        </Card.Header>
-        <Card.Body className="mt-4">
-          <Card.Text>{`${company} (${creationDate})`}</Card.Text>
-          {gitUrl !== '' && <Card.Link className="text-decoration-none" target="_blank" href={gitUrl}>Visit Git</Card.Link>}
-          <Card.Link className="text-decoration-none" target="_blank" href={deploySite}>Visit App</Card.Link>
-        </Card.Body>
-        <Card.Footer className="mt-4">
-          <ul>
-            {technologies.map((tech) => (
-              <li key={tech.toString()}>{tech}</li>
-            ))}
-          </ul>
-        </Card.Footer>
-      </Card.ImgOverlay>
+    <Card className="color-container border rounded-3 m-1 pt-3 p-2">
+      <Card.Header>
+        <Card.Title>{description}</Card.Title>
+        {/* <Card.Subtitle>{`(${name})`}</Card.Subtitle> */}
+      </Card.Header>
+      <Card.Body className="mt-1">
+        <img className="project-image" src={`${process.env.PUBLIC_URL}/assets/images${image}`} alt={name} />
+        {/* <Card.Text>{`${company} (${creationDate})`}</Card.Text> */}
+      </Card.Body>
+      <Card.Footer className="mt-4 ">
+        <ul>
+          {technologies.map((tech) => (
+            <li key={tech.toString()}>{tech}</li>
+          ))}
+        </ul>
+        <div className="footer-element">
+          {gitUrl !== '' && (
+            <a href={gitUrl} className="btn btn-light btn-app active" role="button">
+              View Source
+              <img src={git} alt="source" />
+            </a>
+          )}
+          <a href={deploySite} className="btn btn-light btn-app active" role="button">
+            Live Demo
+            <img src={live} alt="live" />
+          </a>
+        </div>
+      </Card.Footer>
     </Card>
-    // </div>
   );
 };
 
 Project.propTypes = {
-  creationDate: PropTypes.string.isRequired,
-  company: PropTypes.string.isRequired,
+  // creationDate: PropTypes.string.isRequired,
+  // company: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   technologies: PropTypes.arrayOf(PropTypes.string).isRequired,

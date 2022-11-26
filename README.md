@@ -8,11 +8,11 @@
 
 ## Built With
 
-- Technologies used: React
+- Technologies used: React, Bootstrap
 
 ## Live Demo (if available)
 
-[Live Demo]()
+[Live Demo](https://neckerfree.github.io/Portfolio/)
 
 ## Getting Started
 
@@ -22,7 +22,7 @@ To get a local copy up and running follow these simple example steps.
 - Click the green `Code` button on the repo
 - In your local PC, open your terminal in the folder you would like to clone the project.
 - Clone the repo with the command: `git clone (copied link)`; like so: `git clone https://github.com/NeckerFree/Portfolio`
-- On the terminal, navigate into the directory like so: `cd Capstone-Metropolitan-Museum-of-Art`
+- On the terminal, navigate into the directory like so: `cd Portfolio`
 
 ### Install
 in visual studio code
@@ -45,9 +45,9 @@ Feel free to check the [issues page](https://github.com/NeckerFree/Portfolio/iss
 
 ## Acknowledgments
 
-### minim-json-db:
-<!-- <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>. -->
-https://github.com/leoncvlt/minim-json-db/blob/4b15fc3c0edaad25406b5ba76c158b70c9583007/LICENSE
+### local json db:
+
+[minim-json-db](https://github.com/leoncvlt/minim-json-db/blob/4b15fc3c0edaad25406b5ba76c158b70c9583007/LICENSE)
 
 ### Icons by:
 
