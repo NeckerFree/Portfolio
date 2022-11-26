@@ -22,7 +22,7 @@ const MicroverseMoneyProject = {
   technologies: ['Ruby_on_Rails', 'Boostrap', 'PostgreSql', 'Rspec'],
   gitUrl: 'https://github.com/NeckerFree/MyMoney',
   deploySite: 'https://MyMoney.herokuapp.com',
-  image: '/projects/MyMoney.png',
+  image: '/projects/mymoney.png',
 };
 collection.insert(MicroverseMoneyProject);
 
@@ -61,18 +61,6 @@ const MicroverseMealsProject = {
   image: '/projects/meals.png',
 };
 collection.insert(MicroverseMealsProject);
-
-const MicroverseToDoProject = {
-  creationDate: '04-07-2022',
-  company: 'Microverse',
-  name: 'Javascript-Webpack Project',
-  description: 'TO-DO List app',
-  technologies: ['HTML', 'CSS', 'Javascript', 'Webpack', 'Jest'],
-  gitUrl: 'https://github.com/NeckerFree/To-Do-List',
-  deploySite: 'https://neckerfree.github.io/To-Do-List/dist/index.html',
-  image: '/projects/todo.png',
-};
-collection.insert(MicroverseToDoProject);
 
 const superProjects = {
   creationDate: '06-01-2021',

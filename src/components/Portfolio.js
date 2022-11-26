@@ -9,7 +9,7 @@ const Portfolio = () => (
     className="container-section flex-column text-center color-container mt-1 pb-5 border rounded-3"
     fluid
   >
-    <h1 className="section-title">Portfolio</h1>
+    <h1 className="section-title">Projects</h1>
     <section className="portfolio-projects">
       {records.Projects && records.Projects.map((project) => (
         <Project
