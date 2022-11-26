@@ -35,9 +35,6 @@ h4 {
   height: 50px;
 }
 
-.color-container {
-  background-color: var(--app-dark-blue-color);
-}
 
 .color-container h1 {
   font-weight: 400;
@@ -51,15 +48,20 @@ h4 {
   flex-wrap: wrap;
 }
 
-.profile sup h1 {
+.profile .sup h1 {
+  margin-top: 20px;
   font-weight: 400;
   font-size: 35px;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-.profile sup p {
+.profile .sup p {
+  margin-top: 45px;
+  margin-bottom: 30px;
+  margin-left: 70px;
+  margin-right: 30px;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .profile {
@@ -172,11 +174,13 @@ h4 {
   font-size: 16px;
   padding: 0 3px;
 }
-
+.experience-row{
+  margin: 0px 10px !important; 
+} 
 .experience-line {
   border-left: 1px solid var(--app-white-color);
   width: 10px;
-  padding: 0 0 0 10px;
+  padding: 0px 0px 0px 10px;
   position: relative;
   height: 100%;
 }
@@ -195,7 +199,8 @@ h4 {
   display: flex;
   flex-direction: column;
   text-align: left;
-  margin-left: 5%;
+  margin-left: 10px;
+  /* padding: 0px 15px; */
 }
 
 .experience-period {
@@ -222,22 +227,49 @@ h4 {
   color: var(--app-dark-blue-color);
 }
 
-.portfolio-projects .card:hover {
+.color-container {
+  background-color: var(--app-dark-blue-color);
+  flex: 49%;
+}
+
+/* .card-container{
+  display: flex;
+  flex-direction: column;
+} */
+/* .portfolio-projects .card:hover {
   background-color: var(--app-ligth-blue-color);
   color: transparent !important;
+} */
+.card-body{
+  display: flex;
+  justify-content: center;
 }
-
 .project-image {
-  opacity: 0.5;
-  margin: auto;
-  height: auto;
-  width: 19rem;
-}
+  /* opacity: 0.5; */
+  /* 
+  height: auto; */
+  /* height: 100%; */
+  width: 80%;
+  /* margin-top: 30px;
+  margin-bottom: auto;  */
+ }
 
-.project-image:hover {
+/* .project-image:hover {
   opacity: 0;
+} */
+.card-footer{
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  
 }
-
+.footer-element{
+  /* flex: 25%; */
+  margin-top: 10px;
+  justify-content:space-between;
+  display: flex;
+  width: 200px;
+}
 .card-footer ul li {
   list-style: none;
   float: left;
@@ -247,10 +279,10 @@ h4 {
   border-right: 1px solid var(--app-black-color);
 }
 
-.portfolio-projects .card:hover .project-image {
+/* .portfolio-projects .card:hover .project-image {
   background-color: var(--app-ligth-blue-color);
   opacity: 1;
-}
+} */
 
 .contact-left ul li {
   background-color: var(--app-white-color);
@@ -261,13 +293,13 @@ h4 {
   border-left: 1px solid var(--app-black-color);
 }
 
-.contact-left ul li:hover {
+/* .contact-left ul li:hover {
   background-color: var(--app-ligth-blue-color);
-}
+} */
 
-.portfolio-projects .card:hover .card-footer ul li {
+/* .portfolio-projects .card:hover .card-footer ul li {
   border: none;
-}
+} */
 
 .card-link {
   font-size: 14px;
@@ -285,6 +317,8 @@ h4 {
   margin: 0;
   justify-content: center;
   padding-left: 0;
+  align-items: center;
+  margin-top: 10px;
 }
 
 .contact-section {
@@ -295,7 +329,7 @@ h4 {
 .contact-left {
   text-align: left;
   width: 50%;
-  min-width: 350px;
+  min-width: 300px;
   padding: 0 15px;
 }
 
@@ -303,8 +337,8 @@ form {
   margin-top: 30px;
   text-align: left;
   width: 50%;
-  min-width: 350px;
-  padding: 0 15px;
+  min-width: 300px;
+  padding: 0px 10px 0px 20px; 
 }
 
 .nav-link img {
@@ -341,4 +375,25 @@ form {
 
 .container-section {
   scroll-margin-top: 78px;
+}
+.btn-app{
+  background-color: var(--app-ligth-blue-color) !important;
+  font-size: 0.7em !important;
+  height: 25px !important;
+  padding-top: 3px !important;
+  padding-bottom: 3px !important;
+  width: auto;
+}
+
+.btn-app:hover {
+  background-color: var(--app-gray-color) !important;
+} 
+
+.btn-app img{
+  width: 13px;
+  margin-left: 3px;
+}
+
+.resume{
+  text-decoration:none
 }

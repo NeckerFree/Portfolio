@@ -16,7 +16,7 @@
       "gitUrl": "https://github.com/NeckerFree/Cars",
       "deploySite": "https://cars-capstone.herokuapp.com",
       "image": "/projects/final_capstone.png",
-      "id": "2d79bdac0476aba34fc076e7c039992f"
+      "id": "707a48083d12c19c8f9667cb5ec3a81a"
     },
     {
       "creationDate": "08-12-2022",
@@ -31,8 +31,8 @@
       ],
       "gitUrl": "https://github.com/NeckerFree/MyMoney",
       "deploySite": "https://MyMoney.herokuapp.com",
-      "image": "/projects/MyMoney.png",
-      "id": "f5cd4aede1a76a7b31af868c6d81481a"
+      "image": "/projects/mymoney.png",
+      "id": "9378aa7af5cb088f5c5a0039448fa005"
     },
     {
       "creationDate": "05-27-2022",
@@ -48,7 +48,7 @@
       "gitUrl": "https://github.com/NeckerFree/Capstone-Metropolitan-Museum-of-Art",
       "deploySite": "https://metropolitan-museum-art.netlify.app/",
       "image": "/projects/met.png",
-      "id": "2d13b7dc01de350c5b30b4dfa108cfdc"
+      "id": "9a85fda4c85e0948e0e0238e382a0032"
     },
     {
       "creationDate": "05-14-2022",
@@ -64,13 +64,13 @@
       "gitUrl": "https://github.com/NeckerFree/Capstone-Module-1",
       "deploySite": "https://neckerfree.github.io/Capstone-Module-1/",
       "image": "/projects/conference.png",
-      "id": "44802c501734815506b6749785ef25ae"
+      "id": "a171d58f669b3ef058fcc88d2def5891"
     },
     {
       "creationDate": "04-23-2022",
       "company": "Microverse",
       "name": "Javascript-Webpack Capstone",
-      "description": "Meals Reservations app",
+      "description": "Meals Reservation app",
       "technologies": [
         "HTML",
         "CSS",
@@ -81,24 +81,7 @@
       "gitUrl": "https://github.com/NeckerFree/Capstone-Module-2",
       "deploySite": "https://neckerfree.github.io/Capstone-Module-2/",
       "image": "/projects/meals.png",
-      "id": "155dbb8e97dcb1d542f62658f1efa780"
-    },
-    {
-      "creationDate": "04-07-2022",
-      "company": "Microverse",
-      "name": "Javascript-Webpack Project",
-      "description": "TO-DO List app",
-      "technologies": [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "Webpack",
-        "Jest"
-      ],
-      "gitUrl": "https://github.com/NeckerFree/To-Do-List",
-      "deploySite": "https://neckerfree.github.io/To-Do-List/dist/index.html",
-      "image": "/projects/todo.png",
-      "id": "19def5dd5954cacb1e9afde7a82f0c13"
+      "id": "e3670b27d8fd81affb8a8af04a0c5730"
     },
     {
       "creationDate": "06-01-2021",
@@ -116,7 +99,7 @@
       "gitUrl": "",
       "deploySite": "https://www.supersociedades.gov.co/Servicio_Ciudadano/tramites-y-servicios/Paginas/default.aspx",
       "image": "/projects/super_sociedades.png",
-      "id": "f1546ae27c6dbe674c8a3a031e2065df"
+      "id": "072d8732bee20c7fcb6f4a497468ac77"
     }
   ]
 }
