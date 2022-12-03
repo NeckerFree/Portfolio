@@ -9,7 +9,7 @@ const About = () => (
         <div className="sup">
           <h1>Hi, I am Elio Cortés</h1>
           <ul className="about-text">
-            <li>I am a full-stack software engineer with a degree in systems engineering.</li>
+            <li>I am a full-stack software engineer with a degree in Systems Engineering.</li>
             <li>Coding has been my passion for over 10 years.</li>
             <li>With expertise in dot NET Core and Ruby on Rails frameworks.</li>
             <li>When I am not coding, you can find me training for the next running race or taking a hike in the countryside.</li>
