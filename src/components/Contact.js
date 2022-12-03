@@ -27,13 +27,17 @@ const Contact = () => {
       <h1 className="section-title">Contact</h1>
       <section className="contact-section">
         <div className="contact-left">
-          <h2>Let&apos;s talk</h2>
+          <h2>Let&apos;s talk!</h2>
           <p>
-            If you have an application you are interested in developing,
-            a project that needs coding I&apos;d love to help with it
+            Reach out if you need help with a project that needs coding
+            <br />
+            or an application you want to develop.
           </p>
-          {/* <p>I am open to any collaborations and job opportunities.</p> */}
-          <p>elio.cortes3000@gmail.com</p>
+          <p>
+            I&apos;d love to talk to you!
+            <br />
+            elio.cortes3000@gmail.com
+          </p>
           {/* <a href={resume} className="resume" download="Resume Elio Cortes.pdf">Get my resume</a> */}
           <div className="contact-social">
             <p className="nav justify-content-center">Follow me on:</p>

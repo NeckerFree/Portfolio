@@ -4,7 +4,7 @@
       "creationDate": "09-09-2022",
       "company": "Microverse",
       "name": "Final Capstone project",
-      "description": "Cars test drive app",
+      "description": "Cars Test Drive App",
       "technologies": [
         "React",
         "Redux",
@@ -22,7 +22,7 @@
       "creationDate": "08-12-2022",
       "company": "Microverse",
       "name": "Ruby on Rails Capstone",
-      "description": "Budget app",
+      "description": "Budget App",
       "technologies": [
         "Ruby_on_Rails",
         "Boostrap",
@@ -54,7 +54,7 @@
       "creationDate": "05-14-2022",
       "company": "Microverse",
       "name": "Javascript Capstone",
-      "description": "Running is a passion",
+      "description": "Running is a Passion",
       "technologies": [
         "Javascript",
         "HTML",
@@ -70,7 +70,7 @@
       "creationDate": "04-23-2022",
       "company": "Microverse",
       "name": "Javascript-Webpack Capstone",
-      "description": "Meals Reservation app",
+      "description": "Meals Reservation App",
       "technologies": [
         "HTML",
         "CSS",
@@ -87,7 +87,7 @@
       "creationDate": "06-01-2021",
       "company": "Super Sociedades",
       "name": "Software development",
-      "description": "Development entity apps",
+      "description": "Development Entity Apps",
       "technologies": [
         ".NET",
         "C#",
